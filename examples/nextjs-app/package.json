@@ -27,5 +27,15 @@
   },
   "devDependencies": {
     "kakao.maps.d.ts": "^0.1.39"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "react-kakao-maps-sdk>react": "16 || 17 || 18 || 19"
+      },
+      "ignoreConflicts": [
+        "react-kakao-maps-sdk>react"
+      ]
+    }
   }
 }
