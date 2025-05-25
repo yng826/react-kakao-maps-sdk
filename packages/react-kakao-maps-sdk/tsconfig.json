@@ -3,7 +3,8 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist",
-    "types": ["kakao.maps.d.ts"]
+    // "types": ["kakao.maps.d.ts"]
+    "declaration": true
   },
   "include": ["src"]
 }

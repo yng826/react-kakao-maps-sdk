@@ -1,1 +1,0 @@
-packages/react-kakao-maps-sdk/README.md
